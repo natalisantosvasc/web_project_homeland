@@ -1,0 +1,39 @@
+.header {
+  text-align: center;
+  padding: 60px 20px 40px;
+}
+
+.header__title {
+  font-weight: 900;
+  font-size: 64px;
+  line-height: 1.1;
+  margin: 40px 0 20px;
+}
+
+.header__description {
+  max-width: 720px;
+  margin: 0 auto;
+  font-size: 20px;
+  line-height: 1.4;
+  color: #cccccc;
+}
+
+@media screen and (max-width: 768px) {
+  .header__title {
+    font-size: 42px;
+  }
+
+  .header__description {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .header__title {
+    font-size: 32px;
+  }
+
+  .header__description {
+    font-size: 16px;
+  }
+}

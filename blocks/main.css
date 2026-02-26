@@ -1,0 +1,13 @@
+.main {
+  padding: 0 20px;
+}
+
+.main__image-container {
+  margin: 0 auto 80px;
+  max-width: 984px;
+}
+
+.main__image {
+  width: 100%;
+  display: block;
+}

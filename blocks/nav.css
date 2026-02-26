@@ -1,0 +1,10 @@
+.nav {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+.nav__icon {
+  width: 32px;
+  height: 32px;
+}
