@@ -4,7 +4,7 @@
 
 ## Sobre o projeto
 
-Este projeto é um site responsivo. Ele mostra uma jornada do Kentucky ao Burundi pelo País de Gales e Ucrânia, com imagens de paisagens e textos inspiradores.
+Site responsivo desenvolvido com HTML e CSS que apresenta uma coleção de histórias e paisagens de diferentes lugares do mundo, como País de Gales, EUA, Burundi e Brasil.
 
 ## Tecnologias
 
