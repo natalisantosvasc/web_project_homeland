@@ -99,6 +99,7 @@
   grid-area: content;
   text-align: left;
   align-self: start;
+  min-width: 0;
 }
 
 .content__place-button {
@@ -122,7 +123,7 @@
     font-size: 28px;
   }
 
-  .content__gallery {
+  .content__gallery-images {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(4, 1fr);
   }
@@ -150,15 +151,20 @@
 
   .content__places {
     row-gap: 72px;
+    column-gap: 28px;
+  }
+
+  .content__place-content {
+    overflow-wrap: break-word;
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 320px) {
   .content h2 {
     font-size: 22px;
   }
 
-  .content__gallery {
+  .content__gallery-images {
     grid-template-columns: 1fr;
   }
 
@@ -177,8 +183,8 @@
       "image"
       "content";
     gap: 24px;
-    margin-left: 16px;
-    margin-right: 16px;
+    margin-left: 0;
+    margin-right: 0;
   }
 
   .content__place-title {
@@ -199,4 +205,9 @@
   .content__places {
     row-gap: 50px;
   }
+
+  .content__place-button {
+    font-size: 13px;
+  }
 }
+
