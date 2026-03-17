@@ -6,16 +6,4 @@
 @import url("../blocks/content.css");
 @import url("../blocks/footer.css");
 @import url("../blocks/page.css");
-
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-  background-color: #2f2f2f;
-  color: #ffffff;
-  font-family: "Inter", Arial, sans-serif;
-}
+@import url("../blocks/global.css");
